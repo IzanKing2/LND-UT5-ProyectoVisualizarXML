@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+- Cada archivo XML representa un libro distinto.
+- Contendrá info como: titulo, autor, anio, id, tipo, etc.
+-->
+
+<!-- Libro 2: 'Cien Años de Soledad' -->
+<libro>
+    <titulo>Cien Años de Soledad</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <fecha>2023-10-02</fecha>
+    <id>LTB002</id>
+    <tipo>libro</tipo>
+    <nombreFichero>libro2.xml</nombreFichero>
+</libro>

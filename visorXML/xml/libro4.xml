@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+- Cada archivo XML representa un libro distinto.
+- Contendrá info como: titulo, autor, anio, id, tipo, etc.
+-->
+
+<!-- Libro 4: 'El Señor de los Anillos' -->
+<libro>
+    <titulo>El Señor de los Anillos</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <fecha>2023-10-04</fecha>
+    <id>LTB004</id>
+    <tipo>libro</tipo>
+    <nombreFichero>libro4.xml</nombreFichero>
+</libro>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+- Cada archivo XML representa un libro distinto.
+- Contendrá info como: titulo, autor, anio, id, tipo, etc.
+-->
+
+<!-- Libro 3: 'Don Quijote de la Mancha' -->
+<libro>
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <fecha>2023-10-03</fecha>
+    <id>LTB003</id>
+    <tipo>libro</tipo>
+    <nombreFichero>libro3.xml</nombreFichero>
+</libro>
