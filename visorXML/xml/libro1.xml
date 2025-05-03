@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca>
+<biblioteca>
+    <libro id="L001">
+        <titulo>El arte de programar</titulo>
+        <autor>Donald Knuth</autor>
+        <añoPublicacion>1968</añoPublicacion>
+    </libro>
+    <libro id="L002">
+        <titulo>Ética e inteligencia artificial</titulo>
+        <autor>Fundación SERES</autor>
+        <añoPublicacion>2018</añoPublicacion>
+    </libro>
+</biblioteca>
