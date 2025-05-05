@@ -39,6 +39,56 @@ Crear una página web que permita:
 
 ---
 
+## 📂 Estructura del Proyecto
+
+```
+LND-UT5-ProyectoVisualizarXML/
+│
+├── css/
+│   └── styles.css          # Estilos CSS para la página
+│
+├── js/
+│   └── app.js              # Lógica JavaScript para cargar y mostrar los XML
+│
+├── xsl/
+│   └── libros.xsl          # Transformación XSLT para los archivos XML de libros
+│
+├── xml/
+│   ├── libro1.xml          # Información del libro "El Principito"
+│   ├── libro2.xml          # Información del libro "Cien Años de Soledad"
+│   ├── libro3.xml          # Información del libro "Don Quijote de la Mancha"
+│   └── libro4.xml          # Información del libro "El Señor de los Anillos"
+│
+├── index.html              # Página principal de la biblioteca
+└── README.md               # Documentación del proyecto
+```
+
+---
+
+## 📚 Libros Disponibles
+
+1. **El Principito**  
+   - Autor: Antoine de Saint-Exupéry  
+   - Fecha: 2023-10-01  
+   - ID: LTB001  
+
+2. **Cien Años de Soledad**  
+   - Autor: Gabriel García Márquez  
+   - Fecha: 2023-10-02  
+   - ID: LTB002  
+
+3. **Don Quijote de la Mancha**  
+   - Autor: Miguel de Cervantes  
+   - Fecha: 2023-10-03  
+   - ID: LTB003  
+
+4. **El Señor de los Anillos**  
+   - Autor: J.R.R. Tolkien  
+   - Fecha: 2023-10-04  
+   - ID: LTB004  
+
+---
+
 ## 🎯 Objetivo Final
 Una página web interactiva y visualmente atractiva que permita gestionar y visualizar archivos XML de manera eficiente.
 
