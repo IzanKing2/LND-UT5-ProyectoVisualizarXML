@@ -102,3 +102,90 @@ El proyecto está organizado de manera modular para facilitar su mantenimiento y
 El proyecto cumple con los objetivos y requisitos planteados, ofreciendo una solución funcional, interactiva y visualmente atractiva para gestionar y visualizar archivos XML. La implementación modular y el uso de tecnologías estándar garantizan su compatibilidad y facilidad de mantenimiento.
 
 🎉 **¡Gracias por su atención!** ¿Alguna pregunta? 😊
+
+---
+
+## ❓ Preguntas Frecuentes del Profesor
+
+### **1. ¿Por qué decidieron usar XSLT para transformar los XML?**
+XSLT es una herramienta estándar y eficiente para transformar datos XML en HTML u otros formatos. Además, los navegadores modernos tienen soporte nativo para XSLT, lo que simplifica la implementación sin necesidad de bibliotecas externas.
+
+---
+
+### **2. ¿Cómo se asegura la compatibilidad entre los navegadores?**
+El proyecto utiliza tecnologías estándar como HTML, CSS, JavaScript y XSLT, que son compatibles con la mayoría de los navegadores modernos. Además, se probó en Chrome, Firefox y Edge para garantizar su correcto funcionamiento.
+
+---
+
+### **3. ¿Qué sucede si un archivo XML no tiene el formato esperado?**
+Si un archivo XML no tiene el formato esperado, el navegador puede mostrar un error al aplicar la transformación XSLT. En el futuro, podríamos implementar validaciones adicionales en `app.js` para manejar estos casos y mostrar mensajes de error más claros al usuario.
+
+---
+
+### **4. ¿Cómo podrían automatizar la detección de archivos XML en el directorio?**
+Podríamos usar un backend en PHP o Node.js para listar automáticamente los archivos XML en el directorio y enviarlos al frontend mediante una API. Esto eliminaría la necesidad de definir manualmente los nombres de los archivos en `app.js`.
+
+---
+
+### **5. ¿Qué ventajas tiene este enfoque frente a una base de datos?**
+Este enfoque es más simple y directo para proyectos pequeños o demostrativos, ya que no requiere configurar ni mantener una base de datos. Los datos están directamente en los archivos XML, lo que facilita su edición y portabilidad.
+
+---
+
+### **6. ¿Cómo podrían mejorar la experiencia del usuario?**
+- Agregar mensajes visuales para errores o estados de carga.
+- Implementar un diseño responsive para mejorar la visualización en dispositivos móviles.
+- Permitir búsquedas o filtros en la tabla de libros.
+
+---
+
+### **7. ¿Qué aprendieron al realizar este proyecto?**
+Aprendimos a integrar múltiples tecnologías web (HTML, CSS, JavaScript y XSLT) para resolver un problema práctico. También mejoramos nuestras habilidades en manipulación de DOM, transformación de datos y diseño de interfaces amigables.
+
+---
+
+### **8. ¿Qué harían diferente si tuvieran más tiempo?**
+- Implementaríamos un backend para automatizar la detección de archivos XML.
+- Crearíamos más plantillas XSLT para soportar diferentes tipos de documentos.
+- Añadiríamos pruebas automatizadas para garantizar la calidad del código.
+
+---
+
+### **9. ¿Cómo se asegura la accesibilidad del proyecto?**
+El proyecto utiliza etiquetas semánticas de HTML como `<header>`, `<main>`, `<section>` y `<footer>` para estructurar el contenido, lo que mejora la accesibilidad. Además, se emplean colores con buen contraste y fuentes legibles para facilitar la lectura.
+
+---
+
+### **10. ¿Qué desafíos enfrentaron al trabajar con XSLT?**
+Uno de los principales desafíos fue entender cómo estructurar las plantillas XSLT para transformar los datos XML en HTML. También fue necesario ajustar los estilos CSS embebidos en el archivo XSLT para que coincidieran con el diseño general del proyecto.
+
+---
+
+### **11. ¿Cómo manejan los errores en la carga de archivos XML?**
+Actualmente, los errores se manejan con `console.error` en `app.js`, lo que permite registrar cualquier problema en la consola del navegador. En el futuro, podríamos mostrar mensajes visuales en la página para informar al usuario.
+
+---
+
+### **12. ¿Por qué eligieron JavaScript para cargar los archivos XML?**
+JavaScript es una tecnología estándar en el desarrollo web y permite manipular el DOM de manera eficiente. Además, su capacidad para realizar solicitudes HTTP con `fetch` facilita la carga dinámica de archivos XML sin necesidad de recargar la página.
+
+---
+
+### **13. ¿Cómo podrían optimizar el rendimiento del proyecto?**
+- Implementar almacenamiento en caché para los archivos XML cargados.
+- Minimizar los archivos CSS y JavaScript para reducir el tiempo de carga.
+- Usar un backend para procesar los archivos XML y enviar solo los datos necesarios al cliente.
+
+---
+
+### **14. ¿Qué ventajas tiene usar XSLT frente a otras tecnologías como React o Angular?**
+XSLT es ideal para proyectos pequeños que requieren transformar datos XML en HTML de manera directa, sin necesidad de bibliotecas adicionales. Sin embargo, React o Angular serían más adecuados para aplicaciones más complejas con estados dinámicos y componentes reutilizables.
+
+---
+
+### **15. ¿Cómo podrían extender este proyecto para soportar otros tipos de documentos XML?**
+Podríamos crear más archivos XSLT personalizados para transformar diferentes tipos de documentos XML. Además, podríamos agregar lógica en `app.js` para detectar el tipo de documento y aplicar la transformación correspondiente.
+
+---
+
+🎓 **¡Gracias por su atención!**
