@@ -40,7 +40,7 @@ agradable (con tabla) de los libros.
                         background-color: #007BFF;
                         color: white;
                     }
-                    tr:nth-child(even) {
+                    tr {
                         background-color: #f2f2f2;
                     }
                     h1 {

@@ -66,7 +66,6 @@ El proyecto está organizado de manera modular para facilitar su mantenimiento y
 2. **Interacción del usuario**:
    - El usuario puede:
      - Hacer clic en **"Abrir"** para visualizar el contenido del XML transformado por XSLT.
-     - Hacer clic en **"Descargar"** para guardar el archivo XML en su dispositivo.
 3. **Transformación XSLT**:
    - Cuando el usuario abre un archivo XML, el navegador aplica automáticamente la transformación definida en `libros.xsl`.
 
@@ -81,7 +80,6 @@ El proyecto está organizado de manera modular para facilitar su mantenimiento y
   - ID o Referencia: ✅ Generada dinámicamente en `app.js`.
   - Tipo del documento: ✅ Extraído del XML.
   - Nombre del fichero: ✅ Extraído del XML.
-  - Opción de descarga: ✅ Implementada con enlaces `download`.
 
 ---
 
