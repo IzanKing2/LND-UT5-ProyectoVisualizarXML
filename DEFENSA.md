@@ -45,7 +45,6 @@ El proyecto está organizado de manera modular para facilitar su mantenimiento y
   - Extrae información clave del XML (como título, fecha, referencia y estado) y la inserta en la tabla.
   - Agrega dos enlaces por fila:
     - **Abrir**: Permite visualizar el archivo XML en una nueva pestaña.
-    - **Descargar**: Descarga el archivo XML al equipo del usuario.
 - **Manejo de errores**:
   - Si ocurre un error al cargar un archivo XML, se registra en la consola con `console.error`.
 
