@@ -41,6 +41,10 @@ El proyecto está organizado de manera modular para facilitar su mantenimiento y
 - **Carga dinámica de los archivos XML**:
   - Utiliza un array (`archivosXML`) que contiene las rutas de los archivos XML.
   - Usa `fetch` para cargar cada archivo XML y `DOMParser` para analizar su contenido.
+- **QuerySelector**:
+  - Se utiliza para interactuar tanto con el DOM de la página, como con los documentos XML.
+  - Se utiliza porque permite seleccionar elementos utilizando selectores CSS, como etiquetas "titulo".
+  - Es más intuitivo y versatil que métodos como getElementById o getElementsByTagName.
 - **Generación de filas en la tabla**:
   - Extrae información clave del XML (como título, fecha, referencia y estado) y la inserta en la tabla.
   - Agrega dos enlaces por fila:
